@@ -8,6 +8,17 @@ body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
 }
 
+.navbar-brand > img {
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e0e0e0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .navbar-fixed-top .nav {
     padding: 15px 0;
 }
@@ -36,7 +47,4 @@ footer {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
     }
 
-    .navbar-fixed-top .navbar-brand {
-        padding: 15px 0;
-    }
 }
